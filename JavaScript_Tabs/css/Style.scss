@@ -6,53 +6,65 @@
 
 .Main_Div {
     width: 100%;
-    height: 100vh;
+    height: 1100px;
     display: grid;
     place-items: center;
 
     >.Main_Tabs {
         width: 1000px;
-        height: 160px;
+        height: 270px;
 
-                // Start
+
+        // Start
         >.Tabs_Header {
             display: flex;
             border: 2px solid black;
             background-color: #e7e7e7;
+
             // justify-content: space-around;
             // align-items: center;
             .Red:hover {
                 color: red;
             }
+
             .White:hover {
                 color: white;
             }
+
             .Black:hover {
                 color: black;
-                text-shadow:#ffffff -1px 1px ;
+                text-shadow: #ffffff -1px 1px;
             }
+
             .Green:hover {
                 color: green;
             }
+
             .Blue:hover {
                 color: blue;
             }
+
             .Yellow:hover {
                 color: yellow;
             }
+
             .Orange:hover {
                 color: orange
             }
+
             .Purple:hover {
                 color: purple;
             }
+
             .Gray:hover {
                 color: gray;
                 // text-shadow:#ffffff -1px 1px ;
             }
+
             .Brown:hover {
                 color: brown;
             }
+
             >div {
                 padding-top: 15px;
                 width: 100px;
@@ -60,19 +72,23 @@
                 text-align: center;
                 font: normal small-caps 700 1rem 'Arial';
                 line-height: 3;
+
                 &:not(:last-child) {
                     border-right: 2px solid black;
                 }
+
                 &:hover {
                     background: #ccc;
                     color: black;
                 }
+
                 &.Active {
                     background-color: black;
                     color: white;
                 }
             }
         }
+
         // Tabs_Header end
 
 
@@ -84,12 +100,15 @@
             border: 25px solid black;
             border-bottom: none;
             color: white;
+
             >div {
                 display: none;
+
                 &.Active {
                     display: block;
                 }
             }
+
             .Red_colour {
                 width: 100%;
                 background: red;
@@ -97,6 +116,7 @@
                 padding-top: 15px;
                 font-size: 45px;
             }
+
             .White_colour {
                 width: 100%;
                 background: White;
@@ -105,6 +125,7 @@
                 font-size: 45px;
                 color: black;
             }
+
             .Black_colour {
                 width: 100%;
                 background: black;
@@ -113,6 +134,7 @@
                 font-size: 45px;
                 border: 2px solid white;
             }
+
             .Green_colour {
                 width: 100%;
                 background: green;
@@ -120,6 +142,7 @@
                 padding-top: 15px;
                 font-size: 45px;
             }
+
             .Blue_colour {
                 width: 100%;
                 background: blue;
@@ -127,6 +150,7 @@
                 padding-top: 15px;
                 font-size: 45px;
             }
+
             .Yellow_colour {
                 width: 100%;
                 background: Yellow;
@@ -135,6 +159,7 @@
                 font-size: 45px;
                 color: #000000;
             }
+
             .Orange_colour {
                 width: 100%;
                 background: orange;
@@ -142,6 +167,7 @@
                 padding-top: 15px;
                 font-size: 45px;
             }
+
             .Purple_colour {
                 width: 100%;
                 background: purple;
@@ -149,6 +175,7 @@
                 padding-top: 15px;
                 font-size: 45px;
             }
+
             .Gray_colour {
                 width: 100%;
                 background: gray;
@@ -156,6 +183,7 @@
                 padding-top: 13px;
                 font-size: 45px;
             }
+
             .Brown_colour {
                 width: 100%;
                 background: brown;
@@ -164,6 +192,7 @@
                 font-size: 45px;
             }
         }
+
         // Tabs_Color end
 
 
@@ -180,14 +209,79 @@
             padding-top: 20px;
             font-size: 25px;
             padding-top: 35px;
+
             >div {
                 display: none;
+
                 &.Active {
                     display: block;
                 }
             }
         }
+
         // Tabs_Details end 
-        
+
+    }
+
+    // <!-- Second_Tabs_Start -->
+    >.Second_Main_Tabs {
+        display: flex;
+        outline: 2px solid black;
+
+
+
+        >.Big_img_Box {
+            width: 453px;
+            height: 454px;
+            padding-left: 2px;
+            padding-top: 2px;
+
+            >div {
+                display: none;
+                border: 1px solid #000000;
+
+                &.Ac {
+                    display: block;
+                }
+
+                &:hover {
+                    border: 1px solid #ff0000;
+                    cursor: zoom-in;
+                }
+            }
+
+            .Bis_img_s {
+                width: 447px;
+                height: 444px;
+            }
+        }
+
+        >.Small_img_Box {
+            padding-left: 2px;
+            padding-top: 2px;
+            width: 453px;
+            height: 453px;
+            display: flex;
+            gap: 2px;
+            flex-wrap: wrap;
+
+            .div {
+                width: 148px;
+                height: 148px;
+                border: 1px solid #000000;
+            }
+
+            .sm_img_S {
+                width: 145px;
+                height: 146px;
+                border: 1px solid #000000;
+
+                &:hover {
+                    border: 1px solid #ff0000;
+                    cursor: pointer;
+                    padding: 1px;
+                }
+            }
+        }
     }
 }
