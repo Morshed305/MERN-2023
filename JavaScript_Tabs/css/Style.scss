@@ -226,8 +226,9 @@
     // <!-- Second_Tabs_Start -->
     >.Second_Main_Tabs {
         display: flex;
-        outline: 2px solid black;
-
+        outline: 2px solid rgb(0, 0, 0);
+        width: 896px;
+        height: 456px;
 
 
         >.Big_img_Box {
