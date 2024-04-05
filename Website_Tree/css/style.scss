@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.MainTreeBoX {
+    // width: 100%;
+    // height: 100vh;
+    width: 1728px;
+    height: 7673px;
+    background: #1B2316;
+    position: relative;
+    display: grid;
+
+    >.bg_img {
+        width: auto;
+        height: auto;
+        position: absolute;
+    }
+
+    // bg_img_END
+    >.Tree_Div_box {
+        overflow: hidden;
+        margin-top: 392px;
+        margin-left: 1163px;
+        position: absolute;
+        width: 512px;
+        height: 644px;
+        border-radius: 77px;
+        background: #676b6834;
+        box-shadow: 7px 13px px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 5%);
+        // clip-path: polygon(20% 2%, 0 0, 0 100%, 100% 100%, 100% 0, 80% 2%, 50% 6%);
+        // clip-path: polygon(40% 15%, 25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0, 60% 15%);  
+    }
+
+    >.Tree_Div_img {
+        margin-top: 133px;
+        margin-left: 1085px;
+        position: absolute;
+        width: 640px;
+        height: 640px;
+    }
+
+    // Tree_div_1_END
+    >.CliantReview_Div_1 {
+
+        width: 409px;
+        height: 237px;
+        margin-left: 57px;
+        margin-top: 791px;
+        position: absolute;
+        background: #676b6834;
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 45px;
+    }
+
+    // CliantReview_Div_1_END
+    >.HorizontalTreeBox {
+        width: 1619px;
+        height: 526px;
+        margin-left: 74px;
+        margin-top: 1309px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 151px;
+    }
+
+    >.HorizontalTreeBox_2 {
+        width: 1615px;
+        height: 526px;
+        margin-left: 64px;
+        margin-top: 1967px;
+
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 151px;
+    }
+
+    // Horizontal_Tree_Box__END
+    >.Top_1 {
+        width: 512px;
+        height: 664px;
+        margin-left: 64px;
+        margin-top: 2910px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    >.Top_2 {
+        width: 512px;
+        height: 664px;
+        margin-left: 617px;
+        margin-top: 2910px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    >.Top_3 {
+        width: 512px;
+        height: 664px;
+        margin-left: 1171px;
+        margin-top: 2910px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    >.Top_4 {
+        width: 512px;
+        height: 664px;
+        margin-left: 64px;
+        margin-top: 3780px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    >.Top_5 {
+        width: 512px;
+        height: 664px;
+        margin-left: 617px;
+        margin-top: 3780px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    >.Top_6 {
+        width: 512px;
+        height: 664px;
+        margin-left: 1171px;
+        margin-top: 3780px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 77px;
+        clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 4%);
+    }
+
+    // <!-- Top_selling_Tree_Box_END -->
+
+
+    >.Customer_Review {
+        width: 512px;
+        height: 440px;
+        margin-left: 63px;
+        margin-top: 4925px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 51px;
+    }
+
+    >.Customer_Review_2 {
+        width: 512px;
+        height: 440px;
+        margin-left: 608px;
+        margin-top: 4925px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 51px;
+    }
+
+    >.Customer_Review_3 {
+
+        width: 512px;
+        height: 440px;
+        margin-left: 1153px;
+        margin-top: 4925px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 51px;
+    }
+    // Customer_review_END
+    >.Best_tree{
+        width: 1600px;
+        height: 755px;
+        margin-left: 65px;
+        margin-top: 6034px;
+        position: absolute;
+        background: #ffffff0e;
+        backdrop-filter: blur(13px);
+        box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 92px;
+    }
+    // <!-- Our_Best_TREE_END -->
+
+    >.Nav {
+        width: 1639px;
+        height: 80px;
+        background: #ffffff0a;
+        border-radius: 20px;
+        margin-top: 42px;
+        margin-left: 44px;
+        overflow: hidden;
+        position: fixed;
+        box-shadow: 5px 10px 20px 5px rgba(2, 2, 2, 0.151);
+        border: 1px solid rgba(255, 255, 255, 0.267);
+        display: flex;
+
+        >.Nav_icon {
+            display: flex;
+            margin-left: 6px;
+            width: 150px;
+
+            >.Nav_Name {
+                color: rgb(255, 255, 255);
+                font-size: 28px;
+                margin-top: 20px;
+                margin-left: 7px;
+
+            }
+
+            >.Nav_icon_img_size {
+                margin-top: 7px;
+                height: 58px;
+                width: 58px;
+
+            }
+
+        }
+
+        >.Nav_Menu {
+            width: 545px;
+            height: 29px;
+            margin-top: 25.5px;
+            margin-left: 385px;
+            display: flex;
+
+            >div {
+                color: rgb(255, 255, 255);
+                font-size: 24px;
+            }
+        }
+
+        >.Search {
+            margin-top: 20px;
+            height: 40px;
+            width: 40px;
+            margin-left: 230px;
+
+            // display: flex;
+            >.input {
+                margin-top: 5px;
+                height: 30px;
+                width: 80px;
+                overflow: hidden;
+                position: absolute;
+                background: none;
+                border: 1px solid rgba(255, 255, 255, 0.363);
+                border-radius: 10px;
+
+                &:hover {
+                    background: #000000;
+                    border: 1px solid #ffffff;
+                }
+            }
+
+            >.Search_img_Siz {
+                margin-top: 11px;
+                height: 18px;
+                width: 18px;
+                background: none;
+                position: relative;
+                margin-left: 55px;
+            }
+        }
+
+        >.bag {
+            height: 40px;
+            width: 40px;
+            margin-left: 80px;
+
+            >a>.bag_img_Siz {
+                margin-top: 5px;
+                height: 30px;
+                width: 30px;
+                margin-left: 5px;
+            }
+        }
+
+        >.ThreeDotMenu {
+            height: 40px;
+            width: 60px;
+            margin-left: 40px;
+
+            >a>.ThreeDotMenu_img_siz {
+                margin-top: 10px;
+                height: 20px;
+                width: 40px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    // Nav...END
+    >.Main_Footer_Box{
+        margin-top: 7103px;
+        margin-left: 0;
+        width: 1728px;
+        height: 570px;
+        background: #222C1D;
+    }
+    // Footer_Box_END -->
+
+}
