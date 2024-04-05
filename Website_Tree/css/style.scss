@@ -33,8 +33,82 @@
         box-shadow: 7px 13px px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         clip-path: polygon(25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0%, 50% 5%);
+
         // clip-path: polygon(20% 2%, 0 0, 0 100%, 100% 100%, 100% 0, 80% 2%, 50% 6%);
         // clip-path: polygon(40% 15%, 25% 0, 0 0, 0 100%, 100% 100%, 100% 0, 75% 0, 60% 15%);  
+        >p {
+            margin-left: 80px;
+            margin-top: 256px;
+            color: white;
+            font-size: 23px;
+
+        }
+
+        >.h_3 {
+            margin-top: 20px;
+            margin-left: 80px;
+            color: white;
+            font-size: 38px;
+            font-family: sans-serif;
+        }
+
+        >h6 {
+            color: white;
+            font-size: 35px; 
+            text-align: right; 
+            margin-top: -38px;
+            margin-right: 40px;
+            font-family: sans-serif;
+        }
+
+        >input {
+            width: 217px;
+            height: 64px;
+            background: none;
+            border: 1px solid white;
+            border-radius: 12px;
+            margin-left: 80px;
+            margin-top: 20px;
+            
+            // New_for_me 
+            &::placeholder {
+                font-family: sans-serif;
+                color: rgb(230, 225, 225);
+                font-size: 28px;
+                text-align: center;
+            }
+        }
+
+        >.Three_dot {
+            position: absolute;
+            display: flex;
+            >.Dot_one {
+                width: 21px;
+                height: 6px;
+                border-radius: 50%;
+                background: #ffffff;
+                margin-left: 235px;
+                margin-top: 36px;
+            }
+
+            >.Dot_Two {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #ffffff; 
+                margin-top: 36px;
+                margin-left: 13px;
+            }
+
+            >.Dot_three {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #ffffff;
+                margin-top: 36px;
+                margin-left: 11px;
+            }
+        }
     }
 
     >.Tree_Div_img {
@@ -46,6 +120,77 @@
     }
 
     // Tree_div_1_END
+    >.Text_Div_1 {
+
+        position: absolute;
+        width: 892px;
+        height: auto;
+        margin-left: 57px;
+        margin-top: 266px;
+
+        >h1 {
+            font-family: 'Airwalk', sans-serif;
+            color: white;
+            font-size: 118px;
+        }
+
+        >p {
+            font-family: sans-serif;
+            color: rgb(230, 225, 225);
+            font-size: 23px;
+        }
+
+        >input {
+            width: 217px;
+            height: 64px;
+            background: none;
+            border: 1px solid white;
+            border-radius: 12px;
+            margin-left: 12px;
+            margin-top: 22px;
+
+            // New_for_me
+            &::placeholder {
+                font-family: sans-serif;
+                color: rgb(230, 225, 225);
+                font-size: 28px;
+                text-align: center;
+            }
+        }
+
+        >.liveDemo_box {
+            position: absolute;
+            display: flex;
+            width: 196px;
+            height: 64px;
+            margin-top: -65px;
+            margin-left: 252px;
+
+            >.round_box {
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                border: 1px solid white;
+
+                >.Piramid {
+                    margin-top: 17px;
+                    margin-left: 20px;
+                    width: 26px;
+                    height: 26px;
+                    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+                    background: #ffffff;
+                }
+            }
+
+            >p {
+                font-size: 20px;
+                color: #ffffff;
+            }
+        }
+    }
+
+    // <!-- Text_Div_1_END -->
+
     >.CliantReview_Div_1 {
 
         width: 409px;
@@ -214,8 +359,9 @@
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 51px;
     }
+
     // Customer_review_END
-    >.Best_tree{
+    >.Best_tree {
         width: 1600px;
         height: 755px;
         margin-left: 65px;
@@ -227,6 +373,7 @@
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 92px;
     }
+
     // <!-- Our_Best_TREE_END -->
 
     >.Nav {
@@ -338,13 +485,14 @@
     }
 
     // Nav...END
-    >.Main_Footer_Box{
+    >.Main_Footer_Box {
         margin-top: 7103px;
         margin-left: 0;
         width: 1728px;
         height: 570px;
         background: #222C1D;
     }
+
     // Footer_Box_END -->
 
 }
