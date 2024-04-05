@@ -18,6 +18,13 @@
         width: auto;
         height: auto;
         position: absolute;
+
+        >img {
+            width: 1732px;
+            height: 2653px;
+            margin-left: -2px;
+            margin-top: 0;
+        }
     }
 
     // bg_img_END
@@ -297,6 +304,55 @@
     }
 
     // CliantReview_Div_1_END
+    >.Main_border {
+        position: absolute;
+        border: 7px solid #fffffff3;
+        width: 520px;
+        height: 99px;
+        border-radius: 23px;
+        margin-top: 1096px;
+        margin-left: 592px;
+    
+        >h1 {
+
+            font-size: 55px;
+            color: #ffffff;
+            margin-top: 15px;
+            margin-left: 25px;
+            font-family: sans-serif;
+        }
+    }
+
+    >.Our_Trendy_plants_BOX {
+        position: absolute;
+        width: 520px;
+        height: 99px;
+        margin-top: 1096px;
+        margin-left: 592px;
+        display: flex;
+
+
+        >.R_border {
+            width: 68.5px;
+            height: 69px;
+            margin-right: -0;
+            margin-top: -0;
+            border-top: 7px solid green;
+            border-right: 7px solid green;
+            border-radius: 0 23px 0 23px;
+        }
+        >.L_border {
+            width: 68.5px;
+            height: 69px;
+            border-bottom: 7px solid green;
+            border-left: 7px solid green;
+            border-radius: 0 23px 0 23px;
+            margin-bottom: -0;
+            margin-left: -0;
+        }
+    }
+
+    // <!-- Our_Trendy_plants_END -->
     >.HorizontalTreeBox {
         width: 1619px;
         height: 526px;
