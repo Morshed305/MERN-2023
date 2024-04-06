@@ -343,7 +343,7 @@
         }
     }
 
-    // <!-- Our_Trendy_plants_END -->
+    // <!-- Our_Trendy_plants_Text_END -->
     >.HorizontalTreeBox {
         width: 1619px;
         height: 526px;
@@ -379,7 +379,7 @@
         margin-top: 2735px;
         margin-left: 630px;
         display: flex;
-       background:rgba(0, 0, 0, 0.212) ;
+       background:rgba(0, 0, 0, 0.068) ;
        border-radius: 23px;
 
         >.R_border {
@@ -410,7 +410,7 @@
             font-family: sans-serif;
         }
     }
-    //Our_Top_Selling_END
+    //Our_Top_Selling_TEXT_END
     >.Top_1 {
         width: 512px;
         height: 664px;
@@ -496,8 +496,45 @@
     }
 
     // <!-- Top_selling_Tree_Box_END -->
+    >.Customer_Review_text {
+        position: absolute;
+        width: 532.5px;
+        height: 100px;
+        margin-top: 4683px;
+        margin-left: 598px;
+        display: flex;
+       background:rgba(0, 0, 0, 0.062) ;
+       border-radius: 23px;
 
+        >.R_border {
+            width: 68.5px;
+            height: 69px;
+            margin-right: -0;
+            margin-top: -0;
+            border-top: 7px solid rgba(14, 216, 14, 0.5);
+            border-right: 7px solid rgba(255, 0, 0, 0.479);
+            border-radius: 0 23px 0 23px;
+        }
 
+        >.L_border {
+            width: 68.5px;
+            height: 69px;
+            margin-bottom: -0;
+            margin-left: -0;
+            border-bottom: 7px solid rgba(13, 218, 13, 0.705);
+            border-left: 7px solid rgba(255, 0, 0, 0.63);
+            border-radius: 0 23px 0 23px;
+        }
+        >h1 {
+            position: absolute;
+            font-size: 55px;
+            color: #ffffff;
+            margin-top: 15px;
+            margin-left: 25px;
+            font-family: sans-serif;
+        }
+    }
+    // Customer_Review_text_end
     >.Customer_Review {
         width: 512px;
         height: 440px;
