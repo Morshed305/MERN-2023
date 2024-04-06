@@ -7,6 +7,7 @@ const Tabs_ColorArray = Array.from(Tabs_Color.children);
 const Tabs_DetailsArray = Array.from(Tabs_Details.children);
 
 
+
 headerArray.forEach((item, index) => {
     item.addEventListener('click', () => {
         headerArray.forEach((itm, indx) => {
