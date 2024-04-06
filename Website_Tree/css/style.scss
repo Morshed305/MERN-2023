@@ -576,6 +576,46 @@
     }
 
     // Customer_review_END
+    >.Our_Best_o2 {
+        position: absolute;
+        width: 378.5px;
+        height: 102px;
+        margin-top: 5690px;
+        margin-left: 675px;
+        display: flex;
+       background:rgba(0, 0, 0, 0.062) ;
+       border-radius: 23px;
+
+        >.R_border {
+            width: 68.5px;
+            height: 69px;
+            margin-right: -0;
+            margin-top: -0;
+            border-top: 7px solid rgba(14, 216, 14, 0.5);
+            border-right: 7px solid rgba(255, 0, 0, 0.479);
+            border-radius: 0 23px 0 23px;
+        }
+
+        >.L_border {
+            width: 68.5px;
+            height: 69px;
+            margin-bottom: -0;
+            margin-left: -0;
+            border-bottom: 7px solid rgba(13, 218, 13, 0.705);
+            border-left: 7px solid rgba(255, 0, 0, 0.63);
+            border-radius: 0 23px 0 23px;
+        }
+        >h1 {
+            position: absolute;
+            font-size: 55px;
+            color: #ffffff;
+            margin-top: 15px;
+            margin-left: 25px;
+            font-family: sans-serif;
+        }
+    }
+    // <!-- Our Best o2_Text_End -->
+
     >.Best_tree {
         width: 1600px;
         height: 755px;
